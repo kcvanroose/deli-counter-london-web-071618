@@ -7,8 +7,9 @@ def line(array)
   else 
     array.each_with_index do |name, number| line <<
      " #{number +1}. #{name}"
+    end
+  puts line
   end
-puts line
 end
 
 
