@@ -17,6 +17,8 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{new_cust.size} in line."
 end
 
-
+def now_serving(array)
+   if array.empty?
+    puts "The line is currently empty."
 
   
