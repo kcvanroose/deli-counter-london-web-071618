@@ -12,7 +12,10 @@ def line(array)
   end
 end
 
-def take_a_number
+def take_a_number(array, name)
+  new_cust = array.push(name)
+  puts 
 
+end
 
   
