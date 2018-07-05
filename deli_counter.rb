@@ -14,8 +14,7 @@ end
 
 def take_a_number(array, name)
   new_cust = array.push(name)
-  puts 
-
+  puts "Welcome, #{name}. You are number #{new_cust.size} in line."
 end
 
   
